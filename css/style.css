@@ -369,6 +369,16 @@ button {
     width: 100%; 
 } 
 
+@media screen and (min-resolution: 192dpi) {
+  .hero{ 
+  background-image: linear-gradient( 
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)),
+    url("../images/hero-image-2x.jpg");
+  background-size: cover;
+  }
+}
+
 .hero-container {
     padding: 72px 52px;
 }
